@@ -11,16 +11,16 @@ import NestedComponent from "./components/NestedComponent.vue";
 import ReactiveComponent from "./components/ReactiveComponent.vue";
 import Form2Component from "./components/Form2Component.vue";
 import SlotComponent from "./components/SlotComponent.vue";
+import ProvideComponent from "./components/ProvideComponent.vue";
 
-let count = ref(0);
+// let count = ref(0);
 
-function formHandler(data) {
-  console.log(data);
-}
+// function formHandler(data) {
+//   console.log(data);
+// }
 </script>
 <template>
   <div>
-    <h2>{{ count }}</h2>
     <!-- <GlobalStyles /> -->
     <!-- <NestedComponent /> -->
     <!-- <AttributeBinding /> -->
@@ -32,14 +32,16 @@ function formHandler(data) {
     <!-- <LoopComponent /> -->
     <!-- <Form2Component @userInfo="formHandler"/> -->
 
-    <SlotComponent>
+    <!-- <SlotComponent>
       <template #header>
         <h1>Header</h1>
       </template>
       <template #body>
         <h1>Body</h1>
       </template>
-    </SlotComponent>
+    </SlotComponent> -->
+
+    <ProvideComponent />
   </div>
 </template>
 <style scoped></style>
