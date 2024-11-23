@@ -1,6 +1,4 @@
 <script setup>
-import TextInterpolation from "./TextInterpolation.vue";
-
 // define props
 const msg = "Hello Vue 3 + Vite + TypeScript";
 console.log("HelloComponent loaded");
@@ -9,7 +7,6 @@ console.log("HelloComponent loaded");
 <template>
   <div>
     <h1>{{ msg }}</h1>
-    <TextInterpolation />
   </div>
 </template>
 

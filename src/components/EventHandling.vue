@@ -1,18 +1,23 @@
 <template>
-  <h1>Event</h1>
+  <!-- <h1>Event</h1>
   <h2>{{ count }}</h2>
   <button @:click="increment">increase</button>
   <button @:click="decrement">decrease</button>
   <button @:click="reset">reset</button>
 
+  <hr> -->
+
+  <button @click="$emit('incrementCounter')">
+    Increment
+  </button>
   <hr>
-<h4>
+<!-- <h4>
     {{ counter }}
 </h4>
   <form  @submit="submitHandling">
     <input type="text" v-model="count" />
     <button type="submit">reset</button>
-  </form>
+  </form> -->
 </template>
 
 <script setup>
