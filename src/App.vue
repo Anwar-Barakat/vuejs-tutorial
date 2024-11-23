@@ -1,10 +1,16 @@
 <script setup>
-import ParentComponent from './components/ParentComponent.vue';
-
+import { ref } from 'vue';
+import PropComponent from './components/PropComponent.vue';
+const message = ref('Hello from AppVue');
+const 
 </script>
 <template>
   <div>
-    <ParentComponent />
+    <!-- <FormComponent /> -->
+    <PropComponent :message="'Hello from AppVue'"
+      @increment=""
+    />
+
   </div>
 </template>
-<style scoped></style>   
+<style scoped></style>
