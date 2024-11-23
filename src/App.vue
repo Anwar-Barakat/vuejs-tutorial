@@ -12,6 +12,8 @@ import ReactiveComponent from "./components/ReactiveComponent.vue";
 import Form2Component from "./components/Form2Component.vue";
 import SlotComponent from "./components/SlotComponent.vue";
 import ProvideComponent from "./components/ProvideComponent.vue";
+import WatchComponent from "./components/WatchComponent.vue";
+import MultipleSource from "./components/MultipleSource.vue";
 
 // let count = ref(0);
 
@@ -41,7 +43,10 @@ import ProvideComponent from "./components/ProvideComponent.vue";
       </template>
     </SlotComponent> -->
 
-    <ProvideComponent />
+    <!-- <ProvideComponent /> -->
+
+    <!-- <WatchComponent /> -->
+    <MultipleSource />
   </div>
 </template>
 <style scoped></style>
