@@ -14,6 +14,8 @@ import SlotComponent from "./components/SlotComponent.vue";
 import ProvideComponent from "./components/ProvideComponent.vue";
 import WatchComponent from "./components/WatchComponent.vue";
 import MultipleSource from "./components/MultipleSource.vue";
+import TemplateRef from "./components/TemplateRef.vue";
+import DataFetching from "./components/DataFetching.vue";
 
 // let count = ref(0);
 
@@ -46,7 +48,11 @@ import MultipleSource from "./components/MultipleSource.vue";
     <!-- <ProvideComponent /> -->
 
     <!-- <WatchComponent /> -->
-    <MultipleSource />
+    <!-- <MultipleSource /> -->
+
+    <!-- <TemplateRef /> -->
+
+    <DataFetching />
   </div>
 </template>
 <style scoped></style>
