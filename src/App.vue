@@ -8,6 +8,9 @@
 
   <TaskForm />
 
+  <!-- loading -->
+  <div v-if="taskStore.isLoading">Loading...</div>
+
   <div v-if="filter === 'all'">
     <h1>
       Tasks
@@ -36,6 +39,7 @@ import { ref } from "vue";
 import TaskForm from "./components/tasks/TaskForm.vue";
 
 const taskStore = useTaskStore();
+taskStore.fetchTasks();
 const { getTasks, getTasksCount, getFavTasks, getFavTasksCount } = storeToRefs(taskStore);
 
 const filter = ref("all");

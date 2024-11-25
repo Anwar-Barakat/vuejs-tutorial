@@ -23,6 +23,8 @@ const props = defineProps({
 
 const taskStore = useTaskStore();
 
+
+
 const handleDelete = () => {
   taskStore.removeTask(props.task);
 };
