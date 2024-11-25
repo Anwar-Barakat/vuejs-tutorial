@@ -1,38 +1,17 @@
 {
   "tasks": [
     {
-      "id": "4",
-      "title": "Learning Vue Router",
-      "isFav": false,
-      "isCompleted": false
-    },
-    {
-      "id": 5,
-      "title": "asdasdas",
-      "isFav": true
-    },
-    {
-      "id": 6,
-      "title": "asdasdasd",
-      "isFav": true
-    },
-    {
-      "id": 7,
-      "title": "asdsadasdsa",
-      "isFav": true
-    },
-    {
-      "id": 7,
+      "id": "7",
       "title": "asdasd",
-      "isFav": true
-    },
-    {
-      "id": 1,
-      "title": "i need to add this",
       "isFav": false
     },
     {
-      "id": 6,
+      "id": "1",
+      "title": "i need to add this",
+      "isFav": true
+    },
+    {
+      "id": "6",
       "title": "i need to add this ",
       "isFav": true
     }
