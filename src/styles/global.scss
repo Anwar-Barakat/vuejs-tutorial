@@ -1,0 +1,13 @@
+// src/styles/global.scss
+$primary-color: #42b983;
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: $primary-color;
+}
